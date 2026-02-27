@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    background-color: rgb(150, 73, 160);
+    height: 65px;
+    position: sticky;
+    top:0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+header h1{
+    color: white;
+    font-family: poppins;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+
+.main-box{
+    height: 400px;
+    margin: 15px;
+    background-color: #03c252;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.box-1{
+    height: 350px;
+    width: 400px;
+    background-color: #e6efa2;
+   margin-right: 70px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+}
+.box-1 span{
+    font-family: poppins;
+    font-size: xx-large;
+}
+
+.box-2{
+    height: 350px;
+    width: 400px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #54c9ff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 span{
+    font-family: poppins;
+    font-size: xx-large;
+}
+
+.boxes{
+    display: flex;;
+    justify-content: center;
+    
+}
+
+.greet{
+    border: 2px solid white;
+    height: 100px;
+    width: 70vw;
+    top: 0;
+    border-radius: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    display: grid;
+    align-items: center;
+    font-size: 50px;
+    font-family: poppins;
+        
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 65px;
+    background-color: rgb(46, 44, 51);
+    margin-top:  60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer h1{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-family: poppins;
+}
+
+.cta{
+    height: 50px;
+    width: 50px;
+    background-color: #e6efa2;
+    position: fixed;
+    margin-top: 20px;
+    border-radius: 3cap;
+}
+
+.cta-parent{
+    justify-content: end;
+    margin-right: 20px;
+
+}
